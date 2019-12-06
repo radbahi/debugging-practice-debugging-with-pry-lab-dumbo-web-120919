@@ -1,3 +1,4 @@
+require 'pry'
 class Person
   attr_accessor :name, :candy_lover
 end
@@ -6,6 +7,7 @@ end
     @name = name
     @candy_lover = candy_lover
   end
+  binding.pry
 
   def tall?
     true
