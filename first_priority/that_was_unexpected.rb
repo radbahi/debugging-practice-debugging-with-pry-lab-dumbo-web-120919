@@ -5,8 +5,8 @@ end
 
   def initialize(name, candy_lover)
     @name = name
-    binding.pry
     @candy_lover = candy_lover
+    binding.pry
   end
 
   def tall?
