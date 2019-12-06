@@ -7,6 +7,7 @@ end
     @name = name
     @candy_lover = candy_lover
   end
+end
 
   def tall?
     true
