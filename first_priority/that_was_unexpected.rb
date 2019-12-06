@@ -4,7 +4,7 @@ class Person
 end
 
   def initialize(name, candy_lover)
-       binding.pry
+binding.pry
     @name = name
     @candy_lover = candy_lover
   end
